@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="edu.westga.cs.babble.controllers.BabbleController">
+   <center>
+      <VBox prefHeight="211.0" prefWidth="320.0" spacing="6.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Tiles" />
+            <ListView fx:id="rackListView" orientation="HORIZONTAL" prefHeight="35.0" prefWidth="290.0">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <tooltip>
+                  <Tooltip text="This area contains the tiles available to be used to make a word." />
+               </tooltip>
+            </ListView>
+            <Label text="Your Word" />
+            <ListView fx:id="playedWordListView" orientation="HORIZONTAL" prefHeight="35.0" prefWidth="290.0">
+               <tooltip>
+                  <Tooltip text="This area contains the tiles you have selected to make a word" />
+               </tooltip>
+            </ListView>
+            <HBox alignment="CENTER_RIGHT" prefHeight="47.0" prefWidth="225.0" spacing="11.0">
+               <children>
+                  <Button fx:id="resetButton" mnemonicParsing="false" text="Reset" />
+                  <Button fx:id="playWordButton" mnemonicParsing="false" text="Play Word" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" spacing="5.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="18.0" prefWidth="89.0" text="Score:" />
+                  <TextField fx:id="scoreTextField" text="0">
+                     <tooltip>
+                        <Tooltip text="Your current score" />
+                     </tooltip>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>
