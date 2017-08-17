@@ -5,7 +5,7 @@ import javafx.collections.ObservableList;
 
 /**
  * Title Group Class
- * @author Iam
+ * @author Keith Oguntuwase
  * @version 1.0
  *
  */

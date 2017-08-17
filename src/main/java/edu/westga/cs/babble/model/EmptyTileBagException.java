@@ -2,7 +2,7 @@ package edu.westga.cs.babble.model;
 
 /**
  * EmptyTileBagException class
- * @author Iam
+ * @author Keith Oguntuwase
  * @version 1.0
  *
  */

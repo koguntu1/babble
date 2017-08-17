@@ -30,7 +30,7 @@ import javafx.util.converter.NumberStringConverter;
 /**
  * This is the Babble Controller class
  * 
- * @author Iam 
+ * @author Keith Oguntuwase 
  * @version 1.0 * 
  * 
  */
