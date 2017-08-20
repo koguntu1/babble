@@ -6,8 +6,8 @@ import org.junit.Test;
 
 /**
  * This is test word dictionary class
- * @author Iam
- * @version 1.0
+ * @author Keith Oguntuwase
+ * @version 2.0
  *
  */
 public class TestWordDictionary {
@@ -41,7 +41,7 @@ public class TestWordDictionary {
 	}
 	
 	/**
-	 * Test empry string
+	 * Test empty string
 	 */
 	@Test
 	public void emptyStringShouldNotBeValid() {
