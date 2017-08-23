@@ -63,9 +63,4 @@ public class TestTileBagDrawTile {
         }        
         assertEquals(9, count);
     }
-
-
-
-
-
 }
